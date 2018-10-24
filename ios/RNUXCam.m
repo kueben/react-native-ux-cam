@@ -35,6 +35,10 @@ RCT_EXPORT_METHOD(setAutomaticScreenNameTagging:(BOOL)automaticScreenNameTagging
   [UXCam SetAutomaticScreenNameTagging:automaticScreenNameTagging];
 }
 
+RCT_EXPORT_METHOD(occludeAllTextFields:(BOOL)occludeAll) {
+  [UXCam occludeAllTextFields:occludeAll];
+}
+
 RCT_EXPORT_METHOD(occludeSensitiveScreen:(BOOL)occlude) {
   [UXCam occludeSensitiveScreen:occlude];
 }

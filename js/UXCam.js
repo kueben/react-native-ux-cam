@@ -30,6 +30,7 @@ export default Package.create({
 
     // Occlude
     occludeSensitiveScreen: (shouldOcclude) => UXCam.occludeSensitiveScreen(shouldOcclude),
+    occludeAllTextFields: (occludeAll) => UXCam.occludeAllTextFields(occludeAll),
 
     // Tags
     tagScreenName: (screenName) => UXCam.tagScreenName(screenName),
