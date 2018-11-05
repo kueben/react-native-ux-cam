@@ -48,6 +48,11 @@ public class UXCamModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
+  public void occludeAllTextFields(boolean occludeAll) {
+    UXCam.occludeAllTextFields(occludeAll);
+  }
+
+  @ReactMethod
   public void tagScreenName(String screenName) {
     UXCam.tagScreenName(screenName);
   }
