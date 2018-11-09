@@ -47,6 +47,11 @@ RCT_EXPORT_METHOD(tagScreenName:(NSString *)screenName) {
   [UXCam tagScreenName:screenName];
 }
 
+
+RCT_EXPORT_METHOD(setUserIdentity:(NSString*) userIdentity){
+  [UXCam setUserIdentity:userIdentity];
+}
+
 RCT_EXPORT_METHOD(tagUserName:(NSString *)userName) {
   [UXCam tagUsersName:userName];
 }

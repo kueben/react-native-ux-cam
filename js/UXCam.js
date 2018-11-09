@@ -1,7 +1,6 @@
 // Libraries
-import {NativeModules, Platform} from 'react-native';
+import { NativeModules, Platform } from 'react-native';
 import Package from 'react-native-package';
-
 
 /**
  * Package.create handles two things:
@@ -33,8 +32,13 @@ export default Package.create({
     occludeAllTextFields: (occludeAll) => UXCam.occludeAllTextFields(occludeAll),
 
     // Tags
+
     tagScreenName: (screenName) => UXCam.tagScreenName(screenName),
-    tagUserName: (userName) => UXCam.tagUserName(userName.toString()),
+    tagUserName: (userName) => {
+      UXCam.tagUserName(userName.toString());
+      UXCam.setUserIdentity(userName.toString());
+    },
+
     addTag: (tag, properties = {}) => UXCam.addTag(tag, properties),
     markSessionAsFavorite: () => UXCam.markSessionAsFavorite(),
 
