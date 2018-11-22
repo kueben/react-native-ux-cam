@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:3:11-30
+		INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+		ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:2:1-11:12
+		INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+		ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:2:1-11:12
+		INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:5:22-76
+application
+ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:7:5-9:19
+service#com.uxcam.service.HttpPostService
+ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:8:9-68
+	android:name
+		ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml:8:18-66
+uses-sdk
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+		ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+		ADDED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/uxcam/ReactProjects/WrapReactor/node_modules/react-native-uxcam/android/src/main/AndroidManifest.xml
