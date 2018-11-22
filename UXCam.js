@@ -42,10 +42,10 @@ class UXCam {
 
     /**
         Hide / un-hide the whole screen from the recording
-     
+
         Call this when you want to hide the whole screen from being recorded - useful in situations where you don't have access to the exact view to occlude
         Once turned on with a TRUE parameter it will continue to hide the screen until called with FALSE
-     
+
         @parameter hideScreen Set TRUE to hide the screen from the recording, FALSE to start recording the screen contents again
     */
     static occludeSensitiveScreen(occlude) {
@@ -54,21 +54,21 @@ class UXCam {
 
     /**
         Hide / un-hide all UITextField views on the screen
-     
+
         Call this when you want to hide the contents of all UITextFields from the screen capture. Default is NO.
-     
+
         @parameter occludeAll Set YES to hide all UITextField views on the screen in the recording, NO to stop occluding them from the screen recording.
      */
-    static occludeAllTextView() {
-        UXCamBridge.occludeAllTextFields();
+    static occludeAllTextView(occlude) {
+        UXCamBridge.occludeAllTextFields(occlude;
     }
 
     /**
         UXCam normally captures the view controller name automatically but in cases where it this is not sufficient (such as in OpenGL applications)
         or where you would like to set a different unique name, use this function to set the name.
-     
+
         @note Call this in @c [UIViewController viewDidAppear:] after the call to @c [super ...] or automatic screen name tagging will override your value
-    
+
         @parameter screenName Name to apply to the current screen in the session video
     */
     static tagScreenName(screenName) {
@@ -77,11 +77,11 @@ class UXCam {
 
     /**
         Enable / disable the automatic tagging of screen names
-    	
+
         @note By default UXCam will tag new screen names automatically. You can override this using the @c tagScreenName: method or use this method to disable the automatic tagging.
-     
+
         @parameters enable Set to TRUE to enable automatic screen name tagging (the default) or FALSE to disable it
-     
+
      */
     static setAutomaticScreenNameTagging(autoScreenTagging) {
         UXCamBridge.setAutomaticScreenNameTagging(autoScreenTagging);
@@ -90,7 +90,7 @@ class UXCam {
     /**
      UXCam uses a unique number to tag a device.
      You can set a user identity for a device allowing you to more easily search for it on the dashboard and review their sessions further.
-     
+
      @parameters userIdentity String to apply to this user (device) in this recording session
      @note Starting with SDK v2.5.11 there is no default for this value - to have the previous behaviour call @c [UXCam setUserIdentity:UIDevice.currentDevice.name];
      */
@@ -100,10 +100,10 @@ class UXCam {
 
     /**
      Add a key/value property for this user
-     
+
      @parameter propertyName Name of the property to attach to the user
      @parameter value A value to associate with this property
-     
+
      @note Only NSNumber and NSString value types are supported to a maximum size per entry of 1KiB
      */
     static setUserProperty(propertyName, value) {
@@ -112,10 +112,10 @@ class UXCam {
 
     /**
      Add a single key/value property to this session
-     
+
      @parameter propertyName Name of the property to attach to the session recording
      @parameter value A value to associate with this property
-     
+
      @note Only NSNumber and NSString value types are supported to a maximum size per entry of 1KiB
      */
     static setSessionProperty(propertyName, value) {
@@ -124,7 +124,7 @@ class UXCam {
 
     /**
         Insert a general event into the timeline - stores the event with the timestamp when it was added.
-    
+
         @parameter eventName Name of the event to attach to the session recording at the current time
     */
     static logEvent(event) {
@@ -133,10 +133,10 @@ class UXCam {
 
     /**
         Insert a general event, with associated properties, into the timeline - stores the event with the timestamp when it was added.
-     
+
         @parameter eventName Name of the event to attach to the session recording at the current time
         @parameter properties An NSDictionary of properties to associate with this event
-     
+
         @note Only NSNumber and NSString property types are supported to a maximum count of 100 and maximum size per entry of 1KiB
      */
     static logEvent(eventName, properties) {
@@ -216,7 +216,7 @@ class UXCam {
     }
 
     /**
-     
+
      *	@brief Resume after short break. Only available in android
      *	@parameter continueSession Set to TRUE to continue the current session after a short trip out to another app. Default is FALSE - stop the session as soon as the app enters the background.
      */
