@@ -60,7 +60,7 @@ class UXCam {
         @parameter occludeAll Set YES to hide all UITextField views on the screen in the recording, NO to stop occluding them from the screen recording.
      */
     static occludeAllTextView(occlude) {
-        UXCamBridge.occludeAllTextFields(occlude;
+        UXCamBridge.occludeAllTextFields(occlude);
     }
 
     /**
