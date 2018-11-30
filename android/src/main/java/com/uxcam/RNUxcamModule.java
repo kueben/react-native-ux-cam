@@ -44,6 +44,11 @@ public class RNUxcamModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
+  public void occludeAllTextFields(boolean occlude) {
+    UXCam.occludeAllTextFields(occlude);
+  }
+
+  @ReactMethod
   public void occludeAllTextView() {
     UXCam.occludeAllTextView();
   }
@@ -56,6 +61,11 @@ public class RNUxcamModule extends ReactContextBaseJavaModule {
   @ReactMethod
   public void setAutomaticScreenNameTagging(boolean autoScreenTagging) {
     UXCam.setAutomaticScreenNameTagging(autoScreenTagging);
+  }
+
+  @ReactMethod
+  public void setUserIdentity(String userIdentity) {
+    UXCam.setUserIdentity(userIdentity);
   }
 
   @ReactMethod
